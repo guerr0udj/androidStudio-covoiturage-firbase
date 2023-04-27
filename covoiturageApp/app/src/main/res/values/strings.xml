@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">covoiturageApp</string>
+    <string name="open_drawer">open slideBar</string>
+    <string name="close_drawer">close slideBar</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="connection_error"> server or connection error, please check your connection </string>
+    <string name="empty_blanks"> please fill in the blanks</string>
+    <string name="error_account_creation"> error while creating account</string>
+    <string name="error_password_min_length">password is less then 8 characters</string>
+    <string name="error_email_format"> email incorrect format</string>
+    <string name="error_password_incorrect_format">password incorrect format</string>
+    <string name="error_email_already_exists">this email is already used</string>
+    <string name="user_created">user created successfully</string>
+    <string name="user_do_not_exist">this User Account Doesn\'t exist</string>
+
+    <string name="logged_in">you are connected</string>
+    <string name="logged_out">logged out</string>
+
+    <string name="modify_button">modify</string>
+    <string name="save_button">save</string>
+
+
+</resources>

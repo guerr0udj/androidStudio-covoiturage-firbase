@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Subscribe"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/email_subscribe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="email "
+        android:textSize="24sp"
+        android:layout_marginTop="50dp"
+        />
+
+    <EditText
+        android:id="@+id/password_subscribe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="password"
+        android:textSize="24sp"
+        android:layout_marginTop="50dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="your password should have :"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:orientation="vertical">
+
+        <CheckBox
+            android:id="@+id/checkbox_min8char_subscribe"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="* At least 8 characters long"
+            android:enabled="false"
+            />
+
+
+        <CheckBox
+            android:id="@+id/checkbox_onedigit_subscribe"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="* one digit"
+            android:enabled="false"
+            />
+
+        <CheckBox
+            android:id="@+id/checkbox_lowercase_subscribe"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="* Contains at least one lowercase letter (a-z)"
+            android:enabled="false"
+            />
+
+        <CheckBox
+            android:id="@+id/checkbox_uppercase_subscribe"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="* one uppercase letter (A-Z)"
+            android:enabled="false"
+            />
+
+        <CheckBox
+            android:id="@+id/checkbox_specialchar_subscribe"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="* one special character from the following: @#$%^+="
+            android:enabled="false" />
+
+        <CheckBox
+            android:id="@+id/checkbox_whitespace_subscribe"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="* Does not contain any whitespace characters "
+            android:enabled="false"
+            />
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/btn_register_subscribe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        />
+
+
+</LinearLayout>

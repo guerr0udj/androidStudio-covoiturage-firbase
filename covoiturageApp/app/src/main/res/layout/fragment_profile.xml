@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ProfileFragment"
+    android:background="#F6F9FF">
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            >
+
+
+
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:layout_gravity="center"
+            android:backgroundTint="@color/white"
+            android:layout_marginHorizontal="20dp"
+            android:elevation="20dp"
+            app:cardCornerRadius="50dp"
+            >
+
+                <LinearLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Profile"
+                            android:textSize="30sp"
+                            android:textStyle="bold|italic"
+                            android:gravity="center"
+                            android:textColor="@color/vista_blue"
+                            android:layout_marginTop="15dp"/>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                                <!-- TODO: Update blank fragment layout -->
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Prénom :"
+                                    android:textStyle="bold"
+                                    android:textSize="25sp"
+                                    android:padding="15dp"
+                                    />
+
+                                <EditText
+                                    android:id="@+id/prenom_profile_fragment"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:hint="nameHere"
+                                    android:textSize="25sp"
+                                    android:paddingTop="30dp"
+                                    android:enabled="false"
+                                    />
+
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                                <!-- TODO: Update blank fragment layout -->
+                                <TextView
+                                    android:layout_width="137dp"
+                                    android:layout_height="wrap_content"
+                                    android:padding="15dp"
+                                    android:text="Nom :"
+                                    android:textSize="25sp"
+                                    android:textStyle="bold" />
+
+                                <EditText
+                                    android:id="@+id/nom_profile_fragment"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:hint="Lastname"
+                                    android:textSize="25sp"
+                                    android:paddingTop="30dp"
+                                    android:enabled="false"
+                                    />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                                <!-- TODO: Update blank fragment layout -->
+                                <TextView
+
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="N°Tel"
+                                    android:textStyle="bold"
+                                    android:textSize="25sp"
+                                    android:padding="15dp"
+                                    />
+
+                                <EditText
+                                    android:id="@+id/phone_profile_fragment"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:hint="+33 "
+                                    android:textSize="25sp"
+                                    android:paddingTop="30dp"
+                                    android:enabled="false"
+                                    />
+
+                        </LinearLayout>
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_gravity="bottom">
+
+                        <Button
+                            android:id="@+id/btn_cancel_profile_fragment"
+                            android:layout_width="1dp"
+                            android:layout_height="wrap_content"
+                            android:text="cancel"
+                            android:textSize="20sp"
+                            android:backgroundTint="@color/white"
+                            android:textColor="@color/ice_blue"
+                            android:visibility="gone"
+                            android:layout_weight="1"
+                            />
+
+                        <Button
+                            android:id="@+id/btn_modify_save_profile_fragment"
+                            android:layout_width="1dp"
+                            android:layout_height="match_parent"
+                            android:text="@string/modify_button"
+                            android:textSize="20sp"
+                            android:layout_weight="1"
+                            />
+                </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+        </LinearLayout>
+        </ScrollView>
+</FrameLayout>

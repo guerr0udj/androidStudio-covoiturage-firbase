@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "203320393051",
+    "firebase_url": "https://covoiturage-8e6b9-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "covoiturage-8e6b9",
+    "storage_bucket": "covoiturage-8e6b9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:203320393051:android:e32b9f8dd1522849ca6e7e",
+        "android_client_info": {
+          "package_name": "com.example.covoiturageapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "203320393051-8419movvftoa32t71vfpjuf0ou1mkaqq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.covoiturageapp",
+            "certificate_hash": "bfd5399592bd76823d327405a6db82d6eb18399f"
+          }
+        },
+        {
+          "client_id": "203320393051-g02de0n4is9u0doe2317s544t1ued4am.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAVbWZWPiyWyQqKyciGcdK9u18UUD2NP0M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "203320393051-g02de0n4is9u0doe2317s544t1ued4am.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

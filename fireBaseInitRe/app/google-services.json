@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "226809338268",
+    "project_id": "fir-initre",
+    "storage_bucket": "fir-initre.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:226809338268:android:3de199e5ceb4cd76301059",
+        "android_client_info": {
+          "package_name": "com.example.firebaseinitre"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "226809338268-lqcjc3parpkv0vb1eqvlp8dnatjrp77k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.firebaseinitre",
+            "certificate_hash": "bfd5399592bd76823d327405a6db82d6eb18399f"
+          }
+        },
+        {
+          "client_id": "226809338268-n0e9gilo6jt79g43jqk5a1k9eaftif1p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC0JYG6PZJ6xUlr-O_Gpq0StAeAG-gGcBk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "226809338268-n0e9gilo6jt79g43jqk5a1k9eaftif1p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

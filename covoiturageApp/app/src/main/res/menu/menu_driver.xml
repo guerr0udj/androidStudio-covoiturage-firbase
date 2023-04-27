@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/menu_profile_chauffeur"
+            android:title="my profile"
+            android:icon="@drawable/baseline_identity_24"/>
+        <item
+            android:id="@+id/menu_cagnot_chauffeur"
+            android:title="gains"
+            android:icon="@drawable/baseline_monetization_on_24"
+            />
+
+        <item
+            android:id="@+id/menu_trajet_chauffeur"
+            android:title="post a ride"
+            android:icon="@drawable/baseline_directions_car_24"
+            />
+
+    </group>
+
+    <item
+        android:title="">
+        <menu>
+            <item
+                android:id="@+id/menu_logout_chauffeur"
+                android:title="logout"
+                android:icon="@drawable/baseline_logout_24"/>
+        </menu>
+    </item>
+
+</menu>
